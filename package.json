@@ -1,0 +1,18 @@
+{
+  "name": "ts-node-with-jasmine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jasmine-ts src/**/*_test.ts",
+    "test-watch": "nodemon --watch src/ --exec jasmine-ts src/**/*_test.ts"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/jasmine": "^2.8.7",
+    "@types/node": "^10.1.4",
+    "jasmine-ts": "^0.2.1",
+    "nodemon": "^1.17.5"
+  }
+}
